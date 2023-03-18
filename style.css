@@ -1,0 +1,15 @@
+.three-column {
+  column-count: 3;
+  column-gap: 30px;
+  column-width: 200px;
+}
+
+.table-html {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-html td,
+.table-html th {
+  border: 1px solid #650bd2;
+  text-align: center;
+}

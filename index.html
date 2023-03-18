@@ -5,6 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Belajar HTML</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Hi Nama Saya Didin</h1>
+    <hr />
+    <ul>
+      <li><a href="#Profil">Profil Singkat</a></li>
+      <li><a href="Biodata">Biodata</a></li>
+      <li><a href="Pendidikan">Riwayat Pendidikan</a></li>
+      <li><a href="Hobi">Hobi</a></li>
+      <li><a href="Kontak">Kontak</a></li>
+    </ul>
+    <div id="Profil" class="three-column">
+      <h2>Profil Singkat</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, perspiciatis? Voluptate magni, labore facilis repudiandae nam quia atque reprehenderit pariatur reiciendis autem eligendi quaerat, odio dicta quasi cumque sit sint.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laboriosam quod nam numquam? Omnis quo, qui itaque quae temporibus fugit in cupiditate commodi quia sed laudantium velit, veritatis adipisci placeat. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Laboriosam rem, officia recusandae sit consectetur corrupti eum qui in veniam ea iusto ipsam quibusdam ad tempora totam laborum vel tempore temporibus? Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Consequatur fuga perferendis magni enim consectetur dolorum nulla placeat, commodi illo at, repudiandae ab, voluptatum voluptates corrupti vel sapiente ipsa.
+      </p>
+    </div>
+    <br />
+    <div><img src="img/1.jpg" width="200px" alt="" /></div>
+    <br />
+    <div id="Biodata">
+      <h2>Biodata</h2>
+      <table class="table-html">
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>Tempat, Tanggal Lahir</th>
+          <th>Hobi</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Kak Juan</td>
+          <td>Bogor, 2 jan 1980</td>
+          <td>Hiking</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Din Juan</td>
+          <td>SMD, 03 September 1993</td>
+          <td>Nonton</td>
+        </tr>
+      </table>
+      <div id="Pendidikan"></div>
+      <div id="Hobi"></div>
+      <br />
+      <div id="Kontak">
+        <h2>Kontak</h2>
+        <p>
+          jalan kapten yusuf <br />
+          Gang purnama <br />
+          Bogor 16610
+        </p>
+      </div>
+      <div class="form-wrap">
+        <h4>Mari berkolaborasi</h4>
+        <form>
+          <div>
+            <label>Nama :</label>
+            <input type="date" />
+          </div>
+          <br />
+          <div>
+            <label>Email :</label>
+            <input type="email" />
+          </div>
+          <br />
+          <div>
+            <label>Pesan :</label>
+            <textarea type="textarea" rows="6"></textarea>
+          </div>
+          <br />
+          <div>
+            <input class="button" type="submit" value="Submit" /><br />
+            <button class="button" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
