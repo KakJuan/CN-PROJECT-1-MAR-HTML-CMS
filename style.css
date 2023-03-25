@@ -13,3 +13,18 @@
   border: 1px solid #650bd2;
   text-align: center;
 }
+
+input {
+  box-sizing: border-box;
+}
+#kontak {
+  width: 600px;
+  border: 1px solid grey;
+  padding: 50px;
+  margin-top: 80px;
+  margin: 0 auto;
+}
+.form-style {
+  width: 100%;
+  padding: 10px;
+}
